@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Etiquetas Block</title>
+</head>
+<body class="container py-4">
+    <!-- Encabezado principal con <h1> y separación visual con <hr>, ambas etiquetas block -->
+    <h1 class="alert alert-primary">Ejemplos de etiquetas block</h1>
+    <hr>
+
+    <!-- Sección semántica con <section> y contenido en párrafos <p> -->
+    <section class="mb-4">
+        <h2>1) Párrafos y divisiones</h2>
+        <p>Las etiquetas block ocupan todo el ancho disponible y suelen organizar el contenido por bloques.</p>
+        <p>Ejemplos comunes: encabezados, párrafos, listas, tablas, divisiones y secciones.</p>
+        <div class="p-3 border rounded bg-light">
+            Este contenido está dentro de un <strong>&lt;div&gt;</strong>, que también es una etiqueta block.
+        </div>
+    </section>
+
+    <!-- Listas block: <ul> para lista no ordenada y <ol> para lista ordenada -->
+    <section class="mb-4">
+        <h2>2) Listas</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Lista no ordenada</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Lista ordenada</h3>
+                <ol>
+                    <li>Crear estructura base</li>
+                    <li>Aplicar estilos</li>
+                    <li>Agregar interactividad</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabla completa: <table>, cabecera <thead>, cuerpo <tbody> y filas/columnas -->
+    <section class="mb-4">
+        <h2>3) Tabla de ejemplo</h2>
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Tipo</th>
+                    <th>Uso principal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Block</td>
+                    <td>Definir párrafos</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Block</td>
+                    <td>Agrupar contenido relacionado</td>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Block</td>
+                    <td>Mostrar datos tabulares</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Pie de navegación con enlaces <a> para moverse entre páginas -->
+    <footer class="d-flex gap-2">
+        <a class="btn btn-success" href="index.html">Volver al index</a>
+        <a class="btn btn-warning" href="etiquetas-formularios.html">Ir a etiquetas de formularios</a>
+    </footer>
+</body>
+</html>
