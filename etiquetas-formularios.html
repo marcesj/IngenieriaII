@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Etiquetas de Formularios</title>
+    <style>
+        body {
+            color: #054b92;
+        }
+    </style>
 </head>
 <body class="container py-4">
     <!-- Título del tema usando <h1> y una breve introducción con <p> -->
@@ -92,5 +97,82 @@
         <a class="btn btn-success" href="index.html">Volver al index</a>
         <a class="btn btn-primary" href="etiquetas-block.html">Ir a etiquetas block</a>
     </div>
+
+
+<h2>HTML Table</h2>
+
+<table border="1">
+    <tr>
+        <th colspan="6">Horario 2do</th>
+    </tr>
+    <tr>
+    	<th>Hora</>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Mi&eacute;rcoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+    <tr>
+        <td>13:10Hs</td>
+        <td rowspan="2">Innovación y Desarrollo</td>
+        <td rowspan="2">Inglés</td>
+        <td rowspan="2">Problmática Contemporánea</td>
+        <td rowspan="4">ingeniería de software II</td>
+        <td rowspan="9">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>15:10Hs</td>
+    </tr>
+    <tr>
+        <td>15:10Hs</td>
+        <td rowspan="4">Estadística</td>
+        <td rowspan="7">Programación I</td>
+        <td rowspan="5">Base de Datos I</td>
+    </tr>
+    <tr>
+        <td>15:50Hs</td>
+    </tr>
+    <tr>
+        <td>16:00Hs</td>
+        <td rowspan="4">Prácticas Profecionalizaes</td>
+    </tr>
+    <tr>
+        <td>17:20Hs</td>
+    </tr>
+    <tr>
+        <td>18:00Hs</td>
+    </tr>
+    <tr>
+        <td>18:40Hs</td>
+    </tr>
+    <tr>
+        <td>19:20Hs</td>
+    </tr>
+</table>
+ 
+ 
+<form method="get" action="https://www.algo.com">
+	<label for="domicilio">Ingrese su dirección:</label>
+	<input name="domicilio" id="domicilio" type="text" placeholder="San Justo, Santa Fe"/>
+	<br/>
+		<label for="fechanac">Ingrese su fecha de nacimiento:</label>
+		<input name="fechanac" id="fechanac" type="date"/>
+	<br/>
+		<label for="email">Ingrese su dirección de email:</label>
+		<input name="email" id="email" type="email"/>
+	<br/>
+		<label for="mes">Ingrese su mes favorito del verano:</label>
+		<select name="mes" id="mes">
+			<option value="12">Diciembre</option>
+    		<option value="1">Enero</option>
+    		<option value="2">Febrero</option>
+		</select>
+	<br/>
+		<input type="submit">
+		<input type="reset">
+</body>
+</html>
+
 </body>
 </html>
