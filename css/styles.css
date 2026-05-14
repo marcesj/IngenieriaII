@@ -5,3 +5,23 @@ div {
     padding: 15px; /* Espacio interno */
     margin-bottom: 20px; /* Espacio entre formularios */
 }
+label h1{
+            font-style: italic;
+            color: white;
+            background-color: black;
+        }
+        fieldset{
+            background-color:darkseagreen;
+        }
+        /*selector universal*/
+        {
+            COLOR: white;
+        }
+
+        /*selector de clase*/
+        .tituto {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;   
+
+        }
